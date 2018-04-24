@@ -44,7 +44,6 @@
 		FE8D8B9E208DFE25000BB5A1 = {
 			isa = PBXGroup;
 			children = (
-				FE8D8BB4208DFE96000BB5A1 /* ticket */,
 				FE8D8BA9208DFE25000BB5A1 /* ticket-alg */,
 				FE8D8BA8208DFE25000BB5A1 /* Products */,
 			);
@@ -61,18 +60,11 @@
 		FE8D8BA9208DFE25000BB5A1 /* ticket-alg */ = {
 			isa = PBXGroup;
 			children = (
+				FE8D8BB1208DFE53000BB5A1 /* ticket.c */,
+				FE8D8BB2208DFE53000BB5A1 /* ticket.h */,
 				FE8D8BAA208DFE25000BB5A1 /* main.c */,
 			);
 			path = "ticket-alg";
-			sourceTree = "<group>";
-		};
-		FE8D8BB4208DFE96000BB5A1 /* ticket */ = {
-			isa = PBXGroup;
-			children = (
-				FE8D8BB1208DFE53000BB5A1 /* ticket.c */,
-				FE8D8BB2208DFE53000BB5A1 /* ticket.h */,
-			);
-			path = ticket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
